@@ -11,7 +11,6 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-    - name: Git Sync Action
       uses: wei/git-sync@v2.0.0
       with:
         source_repo: ${{ secrets.MY_SOURCE_REPO }}
